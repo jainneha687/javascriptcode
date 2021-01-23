@@ -1,0 +1,10 @@
+
+ var a =document.getElementsByClassName("col-sm-6 lbl-licitacao").item(3).innerText;
+ console.log(a);
+ var b =document.getElementsByClassName("col-sm-6 lbl-licitacao").item(0).innerText;
+ console.log(b);
+ var c= document.getElementsByClassName("lbl-licitacao").item(1).innerText;
+ console.log(c);
+
+ var x =document.getElementsByClassName("menu").href;
+ document.getElementsByClassName("menu").innerHTML=x; document.write(x);
